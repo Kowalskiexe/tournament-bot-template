@@ -16,7 +16,7 @@ git clone https://github.com/kowalskiexe/tournament-bot-template
 ```
 
 ### Step 2.
-Create [virtual enviroment](https://python.land/virtual-environments/virtualenv) in Python
+Create [virtual enviroment](https://python.land/virtual-environments/virtualenv) for Python
 ```bash
 python -m venv .tournament-bot-template
 ```
