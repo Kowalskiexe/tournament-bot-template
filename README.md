@@ -1,6 +1,6 @@
 # Tournament bot template / sample bot
 
-This is a minimalistic sample bot for a tournament to demonstrate how such bot could be made.
+This is a minimalistic sample bot for [tournament](https://github.com/Kowalskiexe/tournament-judge) to demonstrate how such bot could be made.
 
 This sample bot can also be used as a template to create your own bot in Python.
 
@@ -12,7 +12,7 @@ This sample bot can also be used as a template to create your own bot in Python.
 ### Step 1.
 Clone this repo with commands
 ```bash
-git clone https://github.com/kowalskiexe/tournament-bot-template
+git clone https://github.com/kowalskiexe/tournament-bot-template.git
 ```
 
 ### Step 2.
@@ -66,4 +66,4 @@ Implement your strategy in strategy.py file.
 ### Step 4.
 When ready, build your [docker image](https://www.youtube.com/watch?v=Gjnup-PuquQ) by running a command `docker build -t YOUR-BOT-NAME .` in the project's root directory (the one with this README.md file in it).
 
-Now your docker image can be used by the judge bot in the tournament.
+Now your docker image can be used by the [judge bot](https://github.com/Kowalskiexe/tournament-judge) in the tournament.
