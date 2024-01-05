@@ -36,19 +36,20 @@ On Windows:
 
 Install needed dependencies
 
-On linux / macOS:
 ```bash
 cd tournament-bot-template
 pip install -r requirements.txt
 ```
 
 Now you can run the bot and test its functionality
+
 Start the bot by:
 ```bash
 # in the projects root directory
 python -m bot
 ```
 Test the bot by running:
+
 On linux / macOS:
 ```bash
 curl -X POST -H "Content-type: text/json" -d '{"opponents_last_move": "testify"}' localhost:5000
@@ -65,4 +66,4 @@ Implement your strategy in strategy.py file.
 ### Step 4.
 When ready, build your [docker image](https://www.youtube.com/watch?v=Gjnup-PuquQ) by running a command `docker build -t YOUR-BOT-NAME .` in the project's root directory (the one with this README.md file in it).
 
-Then your docker image can be used by the judge bot.
+Now your docker image can be used by the judge bot in the tournament.
